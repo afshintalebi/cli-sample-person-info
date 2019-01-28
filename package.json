@@ -1,0 +1,27 @@
+{
+  "name": "cli-sample-person-info",
+  "version": "1.0.0",
+  "description": "Nodejs CLI project sample",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "nodejs",
+    "command",
+    "line",
+    "javascript"
+  ],
+  "bin": {
+    "print-hello": "./index.js"
+  },
+  "author": "Afshin talebi",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.19.0"
+  }
+}
